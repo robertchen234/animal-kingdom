@@ -13,6 +13,7 @@ class Landing extends Component {
   signIn(e) {
     e.preventDefault()
     this.userSession.redirectToSignIn()
+    window.location.reload();
   }
 
   render() {
